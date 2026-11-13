@@ -1,0 +1,44 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","className":"site-main","layout":{"type":"constrained","contentSize":"1280px"}} -->
+<main class="wp-block-group site-main">
+	<!-- wp:columns {"className":"layout-columns"} -->
+	<div class="wp-block-columns layout-columns">
+		<!-- wp:column {"className":"column-main"} -->
+		<div class="wp-block-column column-main">
+			<!-- wp:query-title {"type":"search"} /-->
+<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true}} -->
+<div class="wp-block-query">
+	<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+		<!-- wp:group {"className":"entry","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"},"style":{"spacing":{"blockGap":"0.75rem"}}} -->
+		<div class="wp-block-group entry">
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","sizeSlug":"cairn-card"} /-->
+			<!-- wp:post-title {"isLink":true,"level":2,"fontSize":"large"} /-->
+			<!-- wp:group {"className":"entry-metadata","layout":{"type":"flex","flexWrap":"wrap"},"style":{"spacing":{"blockGap":"0.75rem"}}} -->
+			<div class="wp-block-group entry-metadata"><!-- wp:post-terms {"term":"category"} /--><!-- wp:post-date /--></div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:group -->
+	<!-- /wp:post-template -->
+	<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+		<!-- wp:query-pagination-previous /-->
+		<!-- wp:query-pagination-numbers /-->
+		<!-- wp:query-pagination-next /-->
+	<!-- /wp:query-pagination -->
+	<!-- wp:query-no-results -->
+		<!-- wp:paragraph --><p>Nothing found. Try searching for something else.</p><!-- /wp:paragraph -->
+		<!-- wp:search {"label":"Search","buttonText":"Search"} /-->
+	<!-- /wp:query-no-results -->
+</div>
+<!-- /wp:query -->
+		</div>
+		<!-- /wp:column -->
+		<!-- wp:column {"width":"300px","className":"column-sidebar"} -->
+		<div class="wp-block-column column-sidebar" style="flex-basis:300px">
+			<!-- wp:template-part {"slug":"sidebar","tagName":"div"} /-->
+		</div>
+		<!-- /wp:column -->
+	</div>
+	<!-- /wp:columns -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->
