@@ -64,4 +64,4 @@ Cairn is distributed under the terms of the GNU General Public License v2 or lat
   Source: https://github.com/rsms/inter
 
 * screenshot.png
-  Created by the theme author for this theme from plain colored squares; GNU General Public License v2 or later.
+  Created by the theme author for this theme; the sample thumbnails in it are abstract shapes drawn by the theme author. GNU General Public License v2 or later.
